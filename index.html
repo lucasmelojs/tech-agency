@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechVision | Digital Agency</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">TechVision</a>
+        <ul class="nav__menu">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#work" class="nav__link">Work</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero__container container">
+        <div class="hero__content animate-slide-up">
+          <h1 class="hero__title">Transform Your Digital Presence</h1>
+          <p class="hero__description">
+            We create innovative digital solutions that help businesses thrive
+            in the modern world. From web development to digital marketing,
+            we've got you covered.
+          </p>
+          <div class="hero__buttons">
+            <a href="#contact" class="button button--primary">Get Started</a>
+            <a href="#work" class="button button--outline">View Our Work</a>
+          </div>
+        </div>
+        <div class="hero__image animate-fade-in">
+          <img src="assets/images/hero.png" alt="Digital Solutions" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+      <div class="container">
+        <h2 class="section__title">Our Services</h2>
+        <div class="services__grid">
+          <div class="service__card">
+            <i class="fas fa-code service__icon"></i>
+            <h3 class="service__title">Web Development</h3>
+            <p class="service__description">
+              Cutting-edge web solutions powered by AI, blockchain, and
+              serverless architecture.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="fas fa-mobile-alt service__icon"></i>
+            <h3 class="service__title">Mobile Apps</h3>
+            <p class="service__description">
+              Mobile experiences enhanced with augmented reality, machine
+              learning, and IoT integration.
+            </p>
+          </div>
+          <div class="service__card">
+            <i class="fas fa-paint-brush service__icon"></i>
+            <h3 class="service__title">UI/UX Design</h3>
+            <p class="service__description">
+              Immersive user experiences crafted with the latest UI/UX
+              principles and neurodesign techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work section" id="work">
+      <div class="container">
+        <h2 class="section__title">Featured Work</h2>
+        <div class="work__grid">
+          <div class="work__card">
+            <img
+              src="assets/images/work1.jpg"
+              alt="Project 1"
+              class="work__image"
+            />
+            <div class="work__overlay">
+              <h3 class="work__title">E-commerce Platform</h3>
+              <p class="work__category">Web Development</p>
+            </div>
+          </div>
+          <div class="work__card">
+            <img
+              src="assets/images/work2.jpg"
+              alt="Project 2"
+              class="work__image"
+            />
+            <div class="work__overlay">
+              <h3 class="work__title">Healthcare App</h3>
+              <p class="work__category">Mobile Development</p>
+            </div>
+          </div>
+          <div class="work__card">
+            <img
+              src="assets/images/work3.jpg"
+              alt="Project 3"
+              class="work__image"
+            />
+            <div class="work__overlay">
+              <h3 class="work__title">Finance Dashboard</h3>
+              <p class="work__category">UI/UX Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__content">
+            <h2 class="about__title">About Us</h2>
+            <p class="about__description">
+              We're a team of passionate digital experts committed to delivering
+              exceptional results. With years of experience in the industry, we
+              combine creativity with technical excellence to create solutions
+              that drive real business growth.
+            </p>
+            <a href="#contact" class="button button--primary">Let's Talk</a>
+          </div>
+          <img
+            src="assets/images/about.jpg"
+            alt="Our Team"
+            class="about__image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Get In Touch</h2>
+        <form class="contact__form">
+          <div class="form__group">
+            <label for="name" class="form__label">Name</label>
+            <input type="text" id="name" class="form__input" required />
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" class="form__input" required />
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea
+              id="message"
+              class="form__input"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="button button--primary">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__info">
+            <h3 class="footer__logo">TechVision</h3>
+            <p class="footer__description">
+              Creating innovative digital solutions for modern businesses.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="footer__social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="footer__social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="footer__social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__title">Quick Links</h4>
+            <a href="#home" class="footer__link">Home</a>
+            <a href="#services" class="footer__link">Services</a>
+            <a href="#work" class="footer__link">Work</a>
+            <a href="#about" class="footer__link">About</a>
+            <a href="#contact" class="footer__link">Contact</a>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__title">Services</h4>
+            <a href="#" class="footer__link">Web Development</a>
+            <a href="#" class="footer__link">Mobile Apps</a>
+            <a href="#" class="footer__link">UI/UX Design</a>
+            <a href="#" class="footer__link">Digital Marketing</a>
+            <a href="#" class="footer__link">Consulting</a>
+          </div>
+          <div class="footer__links">
+            <h4 class="footer__title">Contact</h4>
+            <p class="footer__link">contact@techvision.com</p>
+            <p class="footer__link">+1 234 567 890</p>
+            <p class="footer__link">123 Tech Street, Digital City</p>
+          </div>
+        </div>
+        <div class="footer__copy">© 2024 TechVision. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="module" src="js/init.js"></script>
+  </body>
+</html>
