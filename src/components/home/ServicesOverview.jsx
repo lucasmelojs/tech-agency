@@ -4,25 +4,25 @@ import { Link } from 'react-router-dom';
 const ServicesOverview = () => {
   const services = [
     {
-      name: 'AI Agents',
+      name: 'Web Development',
       description: 'Custom web applications built with modern technologies',
-      icon: '⚡️',
+      icon: '🌐',
     },
     {
-      name: 'Digital Marketing',
+      name: 'Mobile Development',
       description: 'Native and cross-platform mobile applications',
       icon: '📱',
     },
     {
-      name: 'Web Development',
+      name: 'UI/UX Design',
       description: 'User-centered design solutions',
-      icon: '🌐',
+      icon: '🎨',
     },
   ];
 
   return (
-    <div className="bg-gray-50 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Our Services
@@ -54,7 +54,7 @@ const ServicesOverview = () => {
         <div className="mt-12 text-center">
           <Link
             to="/services"
-            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-600 hover:bg-orange-700"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-600 hover:bg-orange-700 transition-colors duration-300"
           >
             View All Services
           </Link>

@@ -34,7 +34,7 @@ const Navigation = () => {
                 className={`${location.pathname === item.href
                   ? 'text-orange-600'
                   : 'text-gray-500 hover:text-gray-900'
-                  } px-3 py-2 text-sm font-medium`}
+                  } px-3 py-2 text-md font-medium`}
               >
                 {item.name}
               </Link>
