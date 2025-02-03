@@ -43,7 +43,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-800">
+    <footer className="bg-orange-600">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center mb-8" aria-label="Footer">
@@ -51,7 +51,7 @@ const Footer = () => {
             <div key={item.name} className="px-5 py-2">
               <Link
                 to={item.href}
-                className="text-base text-gray-300 hover:text-white"
+                className="text-lg text-white hover:text-gray-800"
               >
                 {item.name}
               </Link>
@@ -65,7 +65,7 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-gray-400 hover:text-gray-300"
+              className="text-white hover:text-gray-800"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-center text-base text-gray-400">
+        <p className="text-center text-base  text-white">
           &copy; {new Date().getFullYear()} Tech Agency. All rights reserved.
         </p>
       </div>

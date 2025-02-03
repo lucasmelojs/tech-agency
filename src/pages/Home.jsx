@@ -1,8 +1,8 @@
 import React from 'react';
 import HeroSection from '../components/home/HeroSection';
-import FeaturedWork from '../components/home/FeaturedWork';
 import ServicesOverview from '../components/home/ServicesOverview';
-import TestimonialsSection from '../components/home/TestimonialsSection';
+import ContactSection from '../components/home/ContactSection';
+import FeaturedWork from '../components/home/FeaturedWork';
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <HeroSection />
       <ServicesOverview />
       <FeaturedWork />
-      <TestimonialsSection />
+      <ContactSection />
     </div>
   );
 };
