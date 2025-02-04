@@ -5,63 +5,63 @@ const ServicesOverview = () => {
   const services = [
     {
       name: 'Web Development',
-      description: 'Custom web applications built with cutting-edge technologies, optimized for performance and scalability.',
+      description: 'Transform your digital presence with custom websites and web applications built using cutting-edge technologies and best practices.',
       icon: (
         <svg className="w-12 h-12 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      features: ['Custom Web Apps', 'E-commerce', 'Progressive Web Apps', 'API Integration']
+      features: ['Responsive Websites', 'Custom Web Applications', 'E-commerce Solutions', 'Performance Optimization']
     },
     {
-      name: 'Mobile Development',
-      description: 'Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.',
+      name: 'AI Agents for WhatsApp',
+      description: 'Enhance your customer service with intelligent WhatsApp chatbots that provide 24/7 automated support and engagement.',
       icon: (
         <svg className="w-12 h-12 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      features: ['iOS Development', 'Android Apps', 'Cross-platform Solutions', 'App Store Optimization']
+      features: ['Automated Responses', 'Natural Language Processing', 'Custom Integration', 'Analytics Dashboard']
     },
     {
-      name: 'UI/UX Design',
-      description: 'User-centered design solutions that combine aesthetics with functionality to create engaging digital experiences.',
+      name: 'AI Agents for Websites',
+      description: 'Implement intelligent chatbots and virtual assistants that enhance user experience and streamline customer support on your website.',
       icon: (
         <svg className="w-12 h-12 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V21a4 4 0 01-4 4h-3z M15 7h6M15 11h6M15 15h6" />
         </svg>
       ),
-      features: ['User Interface Design', 'User Experience', 'Design Systems', 'Prototyping']
+      features: ['24/7 Customer Support', 'Lead Generation', 'Smart FAQs', 'Multi-language Support']
     },
     {
-      name: 'Digital Marketing',
-      description: 'Strategic digital marketing solutions that drive growth and increase your online presence.',
+      name: 'Branding',
+      description: 'Build a strong, memorable brand identity that resonates with your target audience and sets you apart from competitors.',
       icon: (
         <svg className="w-12 h-12 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
       ),
-      features: ['SEO Optimization', 'Content Strategy', 'Social Media', 'Analytics']
+      features: ['Visual Identity', 'Brand Strategy', 'Logo Design', 'Brand Guidelines']
     },
     {
-      name: 'Cloud Solutions',
-      description: 'Scalable cloud infrastructure and solutions that power your digital transformation journey.',
+      name: 'Social Media',
+      description: 'Elevate your social media presence with strategic content creation, community management, and engagement strategies.',
       icon: (
         <svg className="w-12 h-12 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
         </svg>
       ),
-      features: ['Cloud Migration', 'DevOps', 'Serverless', 'AWS/Azure/GCP']
+      features: ['Content Creation', 'Community Management', 'Paid Advertising', 'Performance Analytics']
     },
     {
-      name: 'Consulting',
-      description: 'Expert technology consulting to help you make informed decisions and achieve your business goals.',
+      name: 'Marketing Consultant',
+      description: 'Get expert guidance to develop and execute effective marketing strategies that drive growth and achieve your business objectives.',
       icon: (
         <svg className="w-12 h-12 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      features: ['Tech Strategy', 'Digital Transformation', 'Process Optimization', 'Tech Architecture']
+      features: ['Strategy Development', 'Market Analysis', 'Campaign Planning', 'ROI Optimization']
     }
   ];
 

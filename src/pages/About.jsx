@@ -45,7 +45,7 @@ const About = () => {
         </svg>
       ),
       title: 'Innovation',
-      description: 'Pushing the boundaries of what"s possible in digital technology.'
+      description: "Pushing the boundaries of what's possible in digital technology."
     },
     {
       icon: (
